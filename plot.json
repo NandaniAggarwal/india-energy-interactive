@@ -245,7 +245,7 @@
 "check_overlap": false,
 "na.rm": false,
 "na.rm": false,
-"vjust":       -1,
+"vjust":        0,
 "title": "Year labels" 
 },
 "types": {
@@ -298,7 +298,7 @@
 "check_overlap": false,
 "na.rm": false,
 "na.rm": false,
-"vjust":       -1,
+"vjust":        0,
 "title": "Year labels" 
 },
 "types": {
