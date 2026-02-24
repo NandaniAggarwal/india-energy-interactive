@@ -1,0 +1,1221 @@
+{
+ "geoms": {
+ "geom1_line_solarplot": {
+ "geom": "line",
+"classed": "geom1_line_solarplot",
+"aes": {
+ "x": "Year",
+"y": "Solar" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#FFA500",
+"size":      1.5,
+"help": "Shows solar power growth in India" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom2_point_solarplot": {
+ "geom": "point",
+"classed": "geom2_point_solarplot",
+"aes": {
+ "x": "Year",
+"y": "Solar" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#FFA500",
+"size":        4,
+"title": "Solar Power Data Points" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom3_line_windplot": {
+ "geom": "line",
+"classed": "geom3_line_windplot",
+"aes": {
+ "x": "Year",
+"y": "Wind" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#0000FF",
+"size":      1.5,
+"help": "Shows wind power growth trend" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom4_point_windplot": {
+ "geom": "point",
+"classed": "geom4_point_windplot",
+"aes": {
+ "x": "Year",
+"y": "Wind" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#0000FF",
+"size":        4,
+"title": "Wind Power Points" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom5_line_hydroplot": {
+ "geom": "line",
+"classed": "geom5_line_hydroplot",
+"aes": {
+ "x": "Year",
+"y": "Hydro" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#006400",
+"size":      1.5,
+"help": "Shows hydro power generation trend" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom6_point_hydroplot": {
+ "geom": "point",
+"classed": "geom6_point_hydroplot",
+"aes": {
+ "x": "Year",
+"y": "Hydro" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#006400",
+"size":        4,
+"title": "Hydro Power Points" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom7_line_co2plot": {
+ "geom": "line",
+"classed": "geom7_line_co2plot",
+"aes": {
+ "x": "Year",
+"y": "CO2" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#FF0000",
+"size":      1.5,
+"help": "Shows CO2 emission trend" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom8_point_co2plot": {
+ "geom": "point",
+"classed": "geom8_point_co2plot",
+"aes": {
+ "x": "Year",
+"y": "CO2" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#FF0000",
+"size":        4,
+"title": "CO2 Data Points" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom9_point_scatter1": {
+ "geom": "point",
+"classed": "geom9_point_scatter1",
+"aes": {
+ "x": "Solar",
+"y": "TotalPower" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#A020F0",
+"size":        4,
+"help": "Relation between Solar and Total Power" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom10_text_scatter1": {
+ "geom": "text",
+"classed": "geom10_text_scatter1",
+"aes": {
+ "label": "Year" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"vjust":       -1,
+"title": "Year labels" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom11_point_scatter2": {
+ "geom": "point",
+"classed": "geom11_point_scatter2",
+"aes": {
+ "x": "Wind",
+"y": "TotalPower" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#A52A2A",
+"size":        4,
+"help": "Relation between Wind and Total Power" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom12_text_scatter2": {
+ "geom": "text",
+"classed": "geom12_text_scatter2",
+"aes": {
+ "label": "Year" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"vjust":       -1,
+"title": "Year labels" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+} 
+},
+"selectors": [],
+"plots": {
+ "solarplot": {
+ "panel_margin_lines":     0.25,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     2012,
+    2016,
+    2020 
+] 
+],
+"y": [
+ [
+        0,
+      20,
+      40,
+      60 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     2012,
+    2014,
+    2016,
+    2018,
+    2020,
+    2022 
+] 
+],
+"y": [
+ [
+        0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+     2012,
+    2016,
+    2020 
+],
+"xlab": [
+ "2012",
+"2016",
+"2020" 
+],
+"xrange": [  2011.45,  2023.55 ],
+"xline": true,
+"xticks": true,
+"y": [
+        0,
+      20,
+      40,
+      60 
+],
+"ylab": [
+ "0",
+"20",
+"40",
+"60" 
+],
+"yrange": [    -2.45,    73.45 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "Year",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Solar Power (GW)",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "2012",
+"2016",
+"2020" 
+],
+"ylabs": [
+ "0",
+"20",
+"40",
+"60" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_line_solarplot",
+"geom2_point_solarplot" 
+] 
+},
+"windplot": {
+ "panel_margin_lines":     0.25,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     2012,
+    2016,
+    2020 
+] 
+],
+"y": [
+ [
+       20,
+      30,
+      40 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     2012,
+    2014,
+    2016,
+    2018,
+    2020,
+    2022 
+] 
+],
+"y": [
+ [
+       20,
+      25,
+      30,
+      35,
+      40,
+      45 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+     2012,
+    2016,
+    2020 
+],
+"xlab": [
+ "2012",
+"2016",
+"2020" 
+],
+"xrange": [  2011.45,  2023.55 ],
+"xline": true,
+"xticks": true,
+"y": [
+       20,
+      30,
+      40 
+],
+"ylab": [
+ "20",
+"30",
+"40" 
+],
+"yrange": [     18.6,     49.4 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "Year",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Wind Power (GW)",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "2012",
+"2016",
+"2020" 
+],
+"ylabs": [
+ "20",
+"30",
+"40" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom3_line_windplot",
+"geom4_point_windplot" 
+] 
+},
+"hydroplot": {
+ "panel_margin_lines":     0.25,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     2012,
+    2016,
+    2020 
+] 
+],
+"y": [
+ [
+       40,
+      45,
+      50 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     2012,
+    2014,
+    2016,
+    2018,
+    2020,
+    2022 
+] 
+],
+"y": [
+ [
+     37.5,
+      40,
+    42.5,
+      45,
+    47.5,
+      50,
+    52.5 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+     2012,
+    2016,
+    2020 
+],
+"xlab": [
+ "2012",
+"2016",
+"2020" 
+],
+"xrange": [  2011.45,  2023.55 ],
+"xline": true,
+"xticks": true,
+"y": [
+       40,
+      45,
+      50 
+],
+"ylab": [
+ "40",
+"45",
+"50" 
+],
+"yrange": [    37.25,    53.75 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "Year",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Hydro Power (GW)",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "2012",
+"2016",
+"2020" 
+],
+"ylabs": [
+ "40",
+"45",
+"50" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom5_line_hydroplot",
+"geom6_point_hydroplot" 
+] 
+},
+"co2plot": {
+ "panel_margin_lines":     0.25,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     2012,
+    2016,
+    2020 
+] 
+],
+"y": [
+ [
+      2.5,
+       3,
+     3.5 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     2012,
+    2014,
+    2016,
+    2018,
+    2020,
+    2022 
+] 
+],
+"y": [
+ [
+     2.25,
+     2.5,
+    2.75,
+       3,
+    3.25,
+     3.5,
+    3.75 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+     2012,
+    2016,
+    2020 
+],
+"xlab": [
+ "2012",
+"2016",
+"2020" 
+],
+"xrange": [  2011.45,  2023.55 ],
+"xline": true,
+"xticks": true,
+"y": [
+      2.5,
+       3,
+     3.5 
+],
+"ylab": [
+ "2.5",
+"3.0",
+"3.5" 
+],
+"yrange": [    2.015,    3.885 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "Year",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "CO2 Emission",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "2012",
+"2016",
+"2020" 
+],
+"ylabs": [
+ "2.5",
+"3.0",
+"3.5" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom7_line_co2plot",
+"geom8_point_co2plot" 
+] 
+},
+"scatter1": {
+ "panel_margin_lines":     0.25,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+      20,
+      40,
+      60 
+] 
+],
+"y": [
+ [
+      150,
+     200,
+     250 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70 
+] 
+],
+"y": [
+ [
+      125,
+     150,
+     175,
+     200,
+     225,
+     250,
+     275 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+      20,
+      40,
+      60 
+],
+"xlab": [
+ "0",
+"20",
+"40",
+"60" 
+],
+"xrange": [    -2.45,    73.45 ],
+"xline": true,
+"xticks": true,
+"y": [
+      150,
+     200,
+     250 
+],
+"ylab": [
+ "150",
+"200",
+"250" 
+],
+"yrange": [   112.25,   282.75 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "Solar Power",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Total Power",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0",
+"20",
+"40",
+"60" 
+],
+"ylabs": [
+ "150",
+"200",
+"250" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom9_point_scatter1",
+"geom10_text_scatter1" 
+] 
+},
+"scatter2": {
+ "panel_margin_lines":     0.25,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       20,
+      30,
+      40 
+] 
+],
+"y": [
+ [
+      150,
+     200,
+     250 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       20,
+      25,
+      30,
+      35,
+      40,
+      45 
+] 
+],
+"y": [
+ [
+      125,
+     150,
+     175,
+     200,
+     225,
+     250,
+     275 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       20,
+      30,
+      40 
+],
+"xlab": [
+ "20",
+"30",
+"40" 
+],
+"xrange": [     18.6,     49.4 ],
+"xline": true,
+"xticks": true,
+"y": [
+      150,
+     200,
+     250 
+],
+"ylab": [
+ "150",
+"200",
+"250" 
+],
+"yrange": [   112.25,   282.75 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "Wind Power",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Total Power",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "20",
+"30",
+"40" 
+],
+"ylabs": [
+ "150",
+"200",
+"250" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom11_point_scatter2",
+"geom12_text_scatter2" 
+] 
+} 
+},
+"source": "https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/figure-india-energy.R",
+"title": "India Renewable Energy Growth Interactive Dashboard" 
+}
